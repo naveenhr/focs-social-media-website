@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0000FF;
+  height: 80px;
+}
+
+.topnav logo{
+	float: left;
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+ margin-bottom: 30px;
+ vertical-align: middle;
+  font-size: 60px;
+}
+.login-page{
+	width: 400px;
+	height: 300px;
+	margin-top: 50px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	-webkit-align-self: center;
+	align-self: center;
+}
+#email,#password,#login{
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	border-color: black;
+	border-radius: 10px;
+	text-align: center;
+}
+#login{
+	background-color: green;
+}
+.login-page h2{
+	margin-top: 50px;
+	margin: 10px;
+	padding: 20px;
+	font-family: Georgia;
+
+}
